@@ -8,9 +8,9 @@
     "text": "OminousAnemone"
   },
   "text": {
-    "more": "Only includes transactions where I was able to link an address to a Reddit username (using Moons Distribution csv files provided by admins)",
-    "intro": "Network Graph of Moon Transactions between Redditors!",
-    "title": "Moon Transactions"
+    "more": "A Network Graph of r/CryptoCurrency Moon transactions between Redditors. Data comes from the Rinkeby API and only includes transactions where I was able to link an blockchain address to a Reddit username",
+    "intro": "Network Graph of Moon Transactions between Redditors! Created by u/ominous_anenome",
+    "title": "Moon Transactions (Last Updated 7/22/21)"
   },
   "legend": {
     "edgeLabel": "MoonTx",
