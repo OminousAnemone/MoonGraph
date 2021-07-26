@@ -8,19 +8,19 @@
     "text": "OminousAnemone"
   },
   "text": {
-    "more": "A Network Graph of r/CryptoCurrency Moon transactions between Redditors. Data comes from the Rinkeby API and only includes transactions where I was able to link an blockchain address to a Reddit username",
-    "intro": "Network Graph of Moon Transactions between Redditors! Created by u/ominous_anenome",
-    "title": "Moon Transactions (Last Updated 7/22/21)"
+    "more": "A \"tip\" is defined as a transaction that is a (1) whole number between 1 and 100 moons, and (2) is between two blockchain addresses that I can verifiably link to Reddit usernames.",
+    "intro": "Network Graph of Moon Tips between Redditors! Last updated 7/23/21. Created by u/ominous_anenome",
+    "title": "Moon Tips Between Redditors"
   },
   "legend": {
-    "edgeLabel": "MoonTx",
+    "edgeLabel": "Moon Transaction",
     "colorLabel": "Modularity",
-    "nodeLabel": "Username"
+    "nodeLabel": "Reddit User"
   },
   "features": {
     "search": true,
     "groupSelectorAttribute": false,
-    "hoverBehavior": "default"
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
@@ -33,7 +33,7 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 10,
+      "labelThreshold": 100,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
@@ -41,9 +41,9 @@
     },
     "graphProperties": {
       "maxEdgeSize": 2,
-      "minEdgeSize": 0.5,
+      "minEdgeSize": 0.75,
       "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxNodeSize": 15
     },
     "mouseProperties": {
       "maxRatio": 20,
